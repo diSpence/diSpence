@@ -63,13 +63,14 @@ a[href]:hover, a[href]:active {
 }
 .logo {
   vertical-align: middle;
-  width: 5em;
+  width: 3em;
   height: auto;
-  margin: 0.32em;
+  margin: 0.460em;
+  padding-left: 4em;
 }
 .logo:hover {
   transition: 0.25s;
-  width: 6em;
+  width: 4em;
   margin: 0em;
 }
 #nav {
@@ -79,6 +80,7 @@ a[href]:hover, a[href]:active {
   list-style-type: none;
   width: 100%;
   padding: 0;
+  padding-left: 7em;
   margin: 0;
   position: fixed;
   top: 0;
@@ -106,7 +108,7 @@ a[href]:hover, a[href]:active {
 }
 #nav ul li a:hover, #nav ul li a:active {
   color: #FFFFFF;
-  text-shadow: 0 0 10px hsl(30, 94%, 63%);
+  text-shadow: 0 0 10px hsl(200, 94%, 63%);
 }
 
 /* Page content styles */
@@ -123,11 +125,14 @@ div.page {
 div.page h1 {
   font-size: 3em;
   color: #FFFFFF;
-  text-shadow: 0 0 5px hsl(30, 94%, 63%);
+  text-shadow: 0 0 5px hsl(200, 94%, 63%);
 }
 div.page h2 {
   font-size: 2em;
   color: #FFFFFF;
+}
+div.page h3#acro {
+  text-shadow: 0 0 5px hsl(30, 94%, 63%);
 }
 div.page h3 {
   font-size: 1.5em;
@@ -246,13 +251,13 @@ section.device p {
   box-shadow: 0 0 1em 0.5em hsl(30, 94%, 63%);
 }
 #table thead tr:first-of-type {
-  background-color: hsl(0, 0%, 30%);
+  background-color: hsl(200, 100%, 30%);
 }
 #table tbody tr td:first-of-type {
   background-color: hsl(20, 94%, 63%);
 }
 #table tbody tr td:last-of-type {
-  background-color: hsl(40, 94%, 63%);
+  background-color: hsl(200, 100%, 30%);
 }
 #table td {
   padding: 0;
@@ -261,6 +266,12 @@ section.device p {
   display: block;
   width: 100%;
   height: auto;
+}
+
+ul {
+  list-style-type: circle;
+  text-align: left;
+  color: white;
 }
 /* Blog page styles */
 
@@ -445,7 +456,7 @@ footer img {
   For mobile devices (in this case, screens 600px or smaller), the navigation
   bar is replaced with a drop-down menu.
 */
-@media only screen and (max-width: 1650px) {
+@media only screen and (max-width: 2050px) {
   #nav ul li {
     display: block;
   }
