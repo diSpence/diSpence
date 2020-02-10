@@ -273,6 +273,9 @@ ul {
   text-align: left;
   color: white;
 }
+td h3 {
+  padding: 1em;
+}
 /* Blog page styles */
 
 #blog {
