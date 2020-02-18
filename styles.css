@@ -44,6 +44,11 @@ hr.smalldiv {
   margin-top: 6em;
   margin-bottom: 6em;
 }
+hr#fixer {
+  width: 75%;
+  margin-top: 15em;
+  margin-bottom: 6em;
+}
 
 /* Link Styles */
 
