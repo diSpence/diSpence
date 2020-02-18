@@ -34,20 +34,15 @@ hr.devicediv {
   margin-top: 5em;
   margin-bottom: 20em;
 }
-hr.largediv {
-  width: 75%;
-  margin-top: 15em;
-  margin-bottom: 15em;
-}
 hr.smalldiv {
   width: 75%;
-  margin-top: 6em;
-  margin-bottom: 6em;
+  margin-top: 7em;
+  margin-bottom: 7em;
 }
-hr#fixer {
+hr.fixer {
   width: 75%;
   margin-top: 15em;
-  margin-bottom: 6em;
+  margin-bottom: 7em;
 }
 
 /* Link Styles */
